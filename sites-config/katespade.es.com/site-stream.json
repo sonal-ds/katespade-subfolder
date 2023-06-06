@@ -1,0 +1,36 @@
+{
+  "$id": "site-entity",
+  "filter": {
+    "entityIds": ["katespade-es-site-entity"]
+  },
+  "source": "knowledgeGraph",
+  "fields": [
+    "name",
+    "id",
+    "uid",
+    "meta",
+    "c_headerLinks",
+    "c_storeLocatorLabel",
+    "c_copyrightText",
+    "c_footerLinks",
+    "c_footerBottomLinks",
+    "c_locatorInstructionalText",
+    "logo",
+    "c_locatorMetaTitle",
+    "c_locatorMetaDescription",
+    "c_youTube",
+    "c_snapchat",
+    "c_twitter",
+    "c_facebook",
+    "c_instagram",
+    "c_locatorTitle",
+    "c_heroImage",
+    "c_locatorPlaceholderText",
+    "c_pinterest",
+    "c_tikTok"
+  ],
+  "localization": {
+    "locales": ["en_ES"],
+    "primary": false
+  }
+}

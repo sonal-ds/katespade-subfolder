@@ -1,0 +1,148 @@
+/* Hero */
+.hero {
+  @apply relative z-10 mb-8;
+}
+.hero .heroBanner {
+  @apply w-full h-[13.75rem] md:h-[18.75rem] object-cover object-top  md:object-[center] md:min-h-[300px];
+}
+
+.hero.with-opacity {
+  @apply before:content-[''] before:bg-black before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 z-0 before:z-10 before:opacity-60;
+}
+.site-header + .hero .hero-content {
+  @apply bg-transparent;
+}
+.site-header + .hero .hero-content h1 {
+  @apply text-white  text-[2rem] font-secondary font-light tracking-[0.05rem] leading-tight break-words;
+}
+.hero .hero-content {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-12 w-full /*max-w-[50rem]*/ w-[31rem]  px-5 md:px-11 text-center z-20 bg-white;
+}
+.hero .hero-content .single-line {
+  @apply pt-3 leading-[17px] font-light;
+}
+.hero .hero-content .subTitle {
+  @apply pb-2 text-xs font-primary block tracking-[0.9px] text-black;
+}
+.hero .hero-content h2 {
+  @apply inline-block leading-10 text-black tracking-[1px] text-[32px] font-secondary font-bold;
+}
+
+.hero .hero-content h1 {
+  @apply text-[28px] md:text-4xl lg:text-6xl my-0.5   font-medium text-text-color leading-tight;
+}
+
+.hero .hero-content h1 strong {
+  @apply font-medium;
+}
+
+.hero .hero-content h1.small-heading {
+  @apply text-[1.5rem] md:text-3xl lg:text-4xl;
+}
+
+.hero .hero-content .ctaBtn .button {
+  @apply mb-4 md:mb-6;
+}
+.hero .hero-content .ctaBtn .button svg {
+  @apply w-[18px] h-[16px];
+}
+
+#Locator-mobileHero{
+  @apply hidden md:block
+}
+
+
+.hero-top-banner.hero .heroBanner {
+  @apply h-[22.125rem];
+}
+.hero-top-banner.hero .hero-content {
+  @apply max-w-[28.375rem];
+}
+.hero-top-banner .hero-content h1.small-heading {
+  @apply mt-0 leading-3 !mb-0;
+}
+.hero-top-banner .hero-content h1.small-heading + br {
+  @apply hidden;
+}
+.hero-top-banner .hero-content .small-heading strong {
+  @apply text-black text-xl tracking-[.025rem];
+}
+.hero-top-banner .hero-content .small-heading p {
+  @apply text-xs uppercase tracking-[.04688rem] font-primary text-black mt-1;
+}
+.hero-top-banner .hero-content p {
+  @apply text-xs  tracking-[.04688rem] font-primary text-black mt-1 font-medium uppercase;
+}
+
+.hero-top-banner .hero-content .search-form {
+  @apply pr-0 pt-5 text-left;
+}
+.hero-top-banner .dm-page-search-form .button-search {
+  @apply absolute bottom-0 right-0 top-[initial];
+  transition: initial;
+}
+/* .hero-top-banner .hero-content .search-form.dm-page-search-form input{@apply w-full} */
+.hero-top-banner .hero-content .search-form .top-text {
+  @apply text-xs text-black tracking-[.01063rem] pb-6 normal-case text-center;
+}
+.hero-top-banner .use-my-location {
+  @apply pt-8 pb-3;
+}
+
+@media screen and (max-width: 767px) {
+
+.hero.hero-top-banner {
+  @apply mb-0;
+}
+.hero.hero-top-banner + .content-list {
+  @apply pt-2;
+}
+.hero-top-banner.hero .hero-content {
+  width: calc(100% - 2rem);
+}
+.hero .banner_image_h .heroBanner {
+  @apply block;
+}
+.hero .hero-content {
+  @apply w-full;
+}
+.hero-top-banner.hero .hero-content {
+  @apply py-6 px-4;
+}
+.hero-top-banner.hero .heroBanner {
+  @apply h-[17.75rem];
+}
+.site-header + .hero .hero-content {
+  @apply translate-x-0 translate-y-0 static m-0 p-0 pl-4 py-4;
+}
+.site-header + .hero .hero-content h1 {
+  @apply text-base text-left font-normal text-black my-0;
+  font-family: inherit;
+}
+.hero {
+  @apply before:static m-0 p-0;
+}
+.hero.with-opacity {
+  @apply before:content-none;
+}
+.hero.with-opacity img {
+  @apply hidden;
+}
+
+.hero .banner_image_h {
+  @apply mb-8;
+}
+.hero .banner_image_h .hero-content {
+  @apply p-8;
+}
+.hero .hero-content .single-line {
+  @apply pt-3;
+}
+
+.hero .banner_image_h .hero-content {
+  @apply max-w-[31rem] w-[calc(100%_-_2rem)];
+}
+
+
+}
+

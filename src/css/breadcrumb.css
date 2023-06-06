@@ -1,0 +1,28 @@
+/* Breadcrumb */
+.breadcrumb {
+  @apply text-left;
+}
+.breadcrumb ul {
+  @apply flex flex-wrap leading-none text-light-gray2  text-xs font-primary;
+}
+.breadcrumb ul li {
+  @apply text-black after:content-['/'] after:px-[4.98px] last:after:content-none relative py-3 font-primary;
+}
+.breadcrumb ul li:first-child {
+  @apply pl-0;
+}
+.breadcrumb ul li svg {
+  @apply w-4;
+}
+.breadcrumb ul li a {
+  @apply relative inline-block align-top no-underline hover:underline font-primary font-light text-black;
+}
+
+.breadcrumb ul li a:hover svg {
+  @apply fill-coloured-text-color;
+}
+
+
+#top-breadcrumb{
+  @apply hidden md:block
+}

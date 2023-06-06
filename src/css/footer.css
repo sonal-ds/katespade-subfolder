@@ -1,0 +1,283 @@
+/* Footer */
+.Footer {
+  @apply mt-12 pb-12 border-t border-t-light-gray3  bg-lightPink;
+}
+.Footer hr {
+  @apply hidden;
+}
+
+body .footer #ot-sdk-btn {
+  @apply font-primary text-xs text-black border border-black fixed bottom-0 left-0 right-0 text-center bg-white max-w-[150px] m-auto;
+}
+
+.subfooter-sec {
+  @apply text-white pb-0 bg-lightPink inline-block w-full border-t border-t-light-gray3 items-start;
+}
+.subfooter-inner {
+  @apply text-black text-sm;
+}
+.footer-logo {
+  @apply md:max-w-[10rem] lg:max-w-[20rem]  xl:max-w-[34.5rem] w-full pr-0 md:pr-5;
+}
+.footer-logo img {
+  @apply w-28 md:w-[15.75rem] ml-auto md:ml-0;
+}
+.subfooter-links {
+  @apply pt-12 flex justify-between -mx-2.5;
+}
+.subfooter-links .subChild {
+  @apply flex  w-2/3;
+}
+.subfooter-links .subChild h6 {
+  @apply text-sm tracking-[.075rem] font-FuturaRoman leading-[1.14]  mb-0 pb-6  text-darkBlack uppercase;
+}
+.subfooter-links .subChild .quickLinks {
+  @apply w-1/4 pr-6;
+}
+.subfooter-links .subChild .group-first {
+  @apply w-1/4;
+}
+.subfooter-links .group-first .quickLinks:not(:first-child) {
+  @apply pt-5;
+}
+.subfooter-links .subChild .group-first .quickLinks {
+  @apply w-full;
+}
+.subfooter-links .subChild li {
+  @apply mb-4;
+}
+
+.subfooter-links .subChild li a {
+  @apply cursor-pointer text-sm leading-[1.29] text-darkBlack font-FuturaRoman  font-bold capitalize;
+}
+
+.subfooter-links .social-links {
+  @apply flex justify-between w-1/3 max-[992px]:px-2.5;
+}
+.subfooter-links .social-links .social-links {
+  @apply w-full justify-end;
+}
+.subfooter-links .social-links li {
+  @apply ml-[2.1875rem] first:ml-0;
+}
+.subfooter-links .social-links li .tiktok-icon {
+  @apply w-5 h-5
+}
+
+.subfooter-links .social-links li span {
+  @apply hidden;
+}
+.subfooter-links .social-links li svg {
+  @apply h-6;
+}
+.subfooter-links .social-links li svg path {
+  @apply fill-[#223628];
+}
+.footerbottomLinks {
+  @apply text-center my-0;
+}
+.footerbottomLinks.footer-item {
+  @apply my-5 hidden;
+}
+
+.footerbottomLinks .footer-2 {
+  @apply text-[.625rem] text-light-gray1 font-primary tracking-[.0625rem] mx-5 mb-2 cursor-pointer inline-block leading-8 uppercase;
+}
+.footerbottomLinks .footer-2:hover {
+  @apply underline;
+}
+.footerbottomLinks button{
+  @apply text-[.625rem] text-light-gray1 font-primary tracking-[.0625rem] mx-5 mb-2 cursor-pointer inline-block leading-8 uppercase;
+}
+.footerbottomLinks button:hover {
+  @apply underline;
+}
+.manage-cookies{
+  @apply lowercase;
+}
+
+.copyright-content {
+  @apply md:ml-40 lg:ml-80 xl:ml-[34.5rem] py-10 md:py-12 lg:py-[4.875rem] text-black;
+}
+.copyright-content p {
+  @apply mb-5;
+}
+
+.footerLogo {
+  @apply w-full text-center mb-14;
+}
+.footerLogo .logo {
+  @apply inline-block;
+}
+.footer_links {
+  @apply flex flex-col md:flex-row items-center flex-1;
+}
+.footer_links .column {
+  @apply w-full md:w-auto flex-1 text-center md:text-left mb-5 md:mb-0 pb-4 md:pb-0 border-b-2 border-[#f4f4f4] md:border-b-0;
+}
+.footer_links .column h5 {
+  @apply text-lg font-medium mb-8;
+}
+.footer_links .column ul {
+  @apply flex justify-end w-full;
+}
+.footer_links .column ul li {
+  @apply leading-5 text-base inline-block mr-12 last:mr-0;
+}
+.footer_links a {
+  @apply text-footer-link-color hover:text-footer-link-hover-color;
+}
+
+
+.footer-company {
+  @apply text-center text-xs leading-[1.33] bg-lightPink w-full inline-block  pt-2 text-darkBlack align-bottom pb-7 font-light lowercase;
+}
+.footer-company .block {
+  @apply mx-2 my-1.5 md:my-0;
+}
+
+.footer-company .block img {
+  @apply h-10 max-w-none md:h-12;
+}
+
+.subfooter-sec ul.social-links a {
+  @apply flex items-center after:content-none;
+}
+.subfooter-sec ul.social-links a .icon {
+  @apply w-7 inline-block align-middle mr-2;
+}
+.subfooter-sec ul.social-links a .icon img {
+  @apply h-5;
+}
+.subfooter-sec ul.social-links a span {
+  @apply relative after:content-[''] after:absolute after:-bottom-0.5 after:border-b after:border-b-white 
+    after:transition-all after:duration-500 after:left-0 after:right-full hover:after:right-0;
+}
+
+@media screen and (min-width: 992px) {
+  #footer-logo-manage,
+  #bottom-breadcrumb + hr,
+  .mobile-menu-btn {
+    @apply hidden;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+.subfooter-links .social-links {
+  @apply max-w-[192px];
+}
+.subfooter-links .social-links li img {
+  @apply w-[.875rem] h-[.875rem];
+}
+.subfooter-links .social-links li:nth-child(4) img {
+  height: 20px;
+  width: 17px;
+  position: relative;
+  top: -2px;
+}
+
+.subfooter-links .social-links li .tiktok-icon img {
+  width: 17px;
+}
+
+.subfooter-links .subChild .quickLinks {
+  @apply w-2/4;
+}
+}
+
+@media screen and (max-width: 991px) {
+
+  .subfooter-links {
+    @apply flex-wrap;
+  }
+  .subfooter-links .subChild {
+    @apply flex-wrap justify-between w-full pb-10;
+  }
+
+  .subfooter-links .subChild .quickLinks {
+    @apply w-1/4;
+  }
+  .subfooter-links .social-links {
+    @apply max-w-full w-full;
+  }
+  .subfooter-links .social-links .social-links {
+    @apply justify-around;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.subfooter-sec {
+  @apply pb-8;
+}
+.subfooter-links .subChild {
+  @apply w-full flex-wrap pb-0;
+}
+.subfooter-links {
+  @apply flex-wrap w-full pt-8 mx-0  pb-0;
+}
+.subfooter-links .subChild .group-first {
+  @apply w-1/2 mb-5;
+}
+.subfooter-links .subChild .group-first .quickLinks {
+  @apply mb-0;
+}
+.footer-logo-manage h1 {
+  @apply text-xs text-black text-center font-primary mt-2;
+}
+.footer-logo-manage p {
+  @apply text-lg text-black text-center font-primary;
+}
+.subfooter-links .subChild .quickLinks {
+  @apply w-1/2 pb-1 pr-1 mb-5;
+}
+
+.footer-company {
+  @apply pt-2 leading-8 pb-0;
+}
+
+.subfooter-links .subChild .quickLinks .show-nav + ul {
+  @apply block;
+}
+.subfooter-links .social-links {
+  @apply m-auto max-w-full justify-around mt-5 w-full;
+}
+.subfooter-links .social-links .social-links {
+  @apply justify-around;
+}
+.subfooter-links .social-links li {
+  @apply mr-0 ml-[2.1875rem] first:ml-0;
+}
+.subfooter-links .social-links li svg {
+  @apply w-auto h-6;
+}
+.subfooter-links .social-links li svg path {
+  fill: #223628;
+}
+
+.Footer {
+  @apply border-t border-t-light-gray3 bg-lightPink pb-0 mt-4;
+}
+.footerbottomLinks.footer-item {
+  @apply flex-wrap px-4 pt-6  mb-3 hidden;
+}
+
+.footerbottomLinks.footer-item .footer-2 {
+  @apply w-[48%] mx-[0.2rem]  text-left pb-2;
+}
+.footer-logo-manage .logo {
+  @apply text-center;
+}
+.footer-logo-manage .logo svg {
+  @apply inline-block;
+}
+
+
+.footer-logo-manage .logo {
+  @apply text-center;
+}
+.footer-logo-manage .logo svg {
+  @apply inline-block;
+}
+
+}

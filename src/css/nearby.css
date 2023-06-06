@@ -1,0 +1,189 @@
+/* --------------------------------------------
+Near by
+-----------------------------------------------*/
+.nearby-sec {
+  @apply border-b border-b-[#d8d8d8] pb-9 max-[767px]:pb-16;
+}
+.nearby-sec .container {
+  @apply max-[640px]:px-0;
+}
+.nearby-sec + hr {
+  @apply hidden;
+}
+.nearby-sec .sec-title {
+  @apply text-lg font-primary text-left p-3 border-b-[1px];
+}
+
+.nearby-sec .Nearby-row {
+  @apply border-b  border-b-[#000] flex justify-between p-3;
+}
+.nearby-sec .Nearby-row .Nearby-title {
+  @apply text-xl text-black font-primary tracking-[.025rem];
+}
+.nearby-sec .Nearby-row .Nearby-linkWrapper--title {
+  @apply font-primary text-sm text-black no-underline hover:underline font-light;
+}
+
+.nearby-sec .sec-title.text-center {
+  @apply text-lg font-primary p-3;
+}
+.near-location.location {
+  @apply flex flex-col h-full mb-px;
+}
+.near-location.location h3 {
+  @apply mb-1 font-light;
+}
+.near-location.location h3 a {
+  @apply hover:underline;
+}
+.near-location.location .closeing-div {
+  @apply font-primary pl-6 text-xs mb-2 font-light;
+}
+.near-location.location .icon-row {
+  @apply static mb-0;
+}
+.near-location.location .icon-row .iconContent {
+  @apply text-dark-gray font-primary;
+}
+
+.near-location.location .icon-row svg {
+  @apply top-1 w-3;
+}
+
+.near-location .buttons {
+  @apply justify-between pl-6 font-primary mt-auto pt-4;
+}
+.near-location .buttons .ctaBtn {
+  @apply w-auto underline hover:no-underline;
+}
+.near-location .buttons .ctaBtn a {
+  @apply font-primary font-light text-sm;
+}
+
+.near-location .button {
+  @apply hover:text-white;
+}
+.more-location {
+  @apply text-center max-w-4xl;
+}
+.more-location .btn-primary {
+  @apply text-center border border-black text-xs uppercase tracking-[.0625rem] font-primary py-3 px-[3.5rem] max-w-xs m-auto leading-[1.17]   text-black hover:bg-black hover:text-white mt-5;
+}
+.more-location .btn-primary svg {
+  @apply hidden;
+}
+
+.nearby-sec .splide {
+  @apply pl-2 pt-[1.875rem] max-[640px]:!px-4;
+}
+
+.result-listing .more-location {
+  @apply my-2.5 pb-0;
+}
+
+.nearby-sec ul.splide__list {
+  @apply flex flex-wrap;
+}
+.nearby-sec ul li {
+  @apply flex-1 !w-auto !p-0;
+}
+
+.addressList {
+  @apply pl-[1.625rem] p-7;
+}
+
+#store-locator-btn-desktop{
+  @apply hidden md:block
+}
+#bottom-breadcrumb{
+  @apply md:hidden
+}
+
+
+
+.store-locator-btn {
+  @apply w-full inline-block;
+}
+.store-locator-btn button {
+  @apply w-full inline-block min-h-[40px];
+}
+.bottom-breadcrumb + hr,
+.store-locator-btn button svg {
+  @apply hidden;
+}
+.store-locator-btn button a {
+  @apply text-center border border-black text-xs uppercase tracking-[.0625rem] font-primary py-3 px-[3.5rem] max-w-xs m-auto leading-[1.17] text-black hover:bg-black hover:text-white mt-5 relative;
+}
+#store-locator-btn {
+  @apply absolute -mt-16 left-0 right-0 z-10 md:hidden;
+}
+
+.result .ctaBtn {
+  @apply first:pr-2.5;
+}
+.location .ctaBtn {
+  @apply first:pr-2.5;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .nearby-sec ul li {
+    @apply flex-[1_1_50%] mb-1;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .nearby-sec ul li {
+    @apply flex-[1_1_50%];
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .nearby-sec ul li {
+    @apply flex-[1_1_100%];
+  }
+  .nearby-sec ul {
+    @apply inline-block;
+  }
+  .nearby-sec ul li {
+    @apply border-t border-t-light-gray3 mb-5 !pt-3 first:border-0 first:!pt-0;
+  }
+  .near-location.location .icon-row svg {
+    @apply top-4;
+  }
+  .nearby-sec ul li:first-child .icon-row svg {
+    top: 5px;
+  }
+  .nearby-sec .splide {
+    @apply pl-0 pt-4;
+  }
+
+
+}
+
+@media screen and (max-width: 639px) {
+  .near-location .buttons .ctaBtn {
+    @apply w-full;
+  }
+  .near-location .buttons .ctaBtn:nth-child(3) {
+    @apply w-full;
+  }
+
+
+}
+
+@media screen and (max-width: 374px) {
+
+  .near-location .buttons .ctaBtn {
+    @apply w-full;
+  }
+  .near-location .buttons .ctaBtn:nth-child(3) {
+    @apply w-full;
+  }
+
+}

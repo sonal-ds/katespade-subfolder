@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6A4BF59C-21E9-436C-B721-9F4521BF292C@1.5x</title>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="*Guides/Styles" transform="translate(-106.000000, -3568.000000)">
+            <g id="Icons" transform="translate(100.000000, 3463.000000)">
+                <g id="Group" transform="translate(0.000000, 100.000000)">
+                    <g id="Container">
+                        <rect id="Padding" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                    <path d="M11.67,5 C14.57,5 16.92,7.35 16.92,10.25 C16.92,11.992 16.072,13.536 14.766,14.49 L17.489,18.38 C17.588,18.52 17.569,18.71 17.459,18.827 L17.406,18.872 C17.248,18.983 17.026,18.939 16.916,18.782 L14.174,14.866 C13.43,15.27 12.577,15.5 11.67,15.5 C8.77,15.5 6.42,13.15 6.42,10.25 C6.42,7.35 8.77,5 11.67,5 Z M11.67,5.656 C9.133,5.656 7.076,7.713 7.076,10.25 C7.076,12.787 9.133,14.844 11.67,14.844 C14.207,14.844 16.264,12.787 16.264,10.25 C16.264,7.713 14.207,5.656 11.67,5.656 L11.67,5.656 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

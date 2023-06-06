@@ -1,0 +1,75 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "location",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "location",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "emails",
+        "slug",
+        "mainPhone",
+        "facebookPageUrl",
+        "instagramHandle",
+        "twitterHandle",
+        "c_storeLocatorLabel",
+        "hours",
+        "logo",
+        "c_pagemetatitle",
+        "c_locatorFiltersStoreType ",
+        "c_brand",
+        "priceRange",
+        "geomodifier",
+        "fax",
+        "c_numberOfRegisters",
+        "c_regionManager",
+        "c_regionName",
+        "c_twilioPhone",
+        "c_vM",
+        "c_aboutSection",
+        "c_heroImage",
+        "c_outlet",
+        "c_pageMetadescription",
+        "c_notificationBanner",
+        "c_productsSectionTile1",
+        "c_productsSectionTile2",
+        "c_productsSectionTile3",
+        "c_promoSection",
+        "c_whatsAppPhone",
+        "yextDisplayCoordinate",
+        "geocodedCoordinate",
+        "dm_directoryParents.id",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryParents.dm_baseEntityCount"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ],
+        "savedFilterIds": [
+          "1318835326"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en_ES"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}
