@@ -4,8 +4,8 @@ localData/
 dist/
 .yext
 .artifact-output
-sites-config/sushi.yext.com/features.json
-sites-config/tacos.yext.com/features.json
+sites-config/katespade.fr.com/features.json
+sites-config/katespade.es.com/features.json
 functions/functionMetadata.json
 *.local
 
