@@ -1,7 +1,7 @@
 import * as React from "react";
 import BreadCrumbs from "../../components/katespade.es.com/BreadCrumbs";
 
-import NearByLocation from "../../components/locationDetails/katespade.es.com/NearByLocation";
+import NearByLocation from "../../components/locationDetails/katespade.fr.com/NearByLocation";
 import { fetch } from "@yext/pages/util";
 import { JsonLd } from "react-schemaorg";
 import LocationInformation from "../../components/locationDetails/LocationInformation";
@@ -10,7 +10,7 @@ import {
   AnalyticsScopeProvider,
   Link,
 } from "@yext/pages/components";
-import Header from "../../components/Layout/katespade.es.com/header";
+import Header from "../../components/Layout/katespade.fr.com/header";
 import Footer from "../../components/Layout/footer";
 import About from "../../components/locationDetails/AboutApp";
 import {

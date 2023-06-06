@@ -1,8 +1,24 @@
 {
   "features": [
     {
+      "name": "country",
+      "streamId": "country",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "location",
       "streamId": "location",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "locator",
+      "streamId": "locatorSearch",
       "templateType": "JS",
       "entityPageSet": {
         "plugin": {}
@@ -10,6 +26,55 @@
     }
   ],
   "streams": [
+    {
+      "$id": "country",
+      "filter": {
+        "entityTypes": [
+          "Coach_country"
+        ]
+      },
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "description",
+        "slug",
+        "address",
+        "dm_baseEntityCount",
+        "c_dm_metaTitle",
+        "Coach_addressCountryDisplayName",
+        "c_dm_metadescription",
+        "dm_directoryChildren.name",
+        "dm_directoryChildren.id",
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_baseEntityCount",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.meta.entityType",
+        "dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.address",
+        "dm_directoryChildren.dm_directoryChildren.dm_baseEntityCount",
+        "dm_directoryChildren.dm_directoryChildren.meta.entityType",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.name",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.slug",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.address",
+        "dm_directoryChildren.dm_directoryChildren.dm_directoryChildren.meta.entityType",
+        "dm_directoryParents.id",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.address",
+        "dm_directoryParents.meta.entityType"
+      ],
+      "localization": {
+        "locales": [
+          "en_ES"
+        ],
+        "primary": false
+      }
+    },
     {
       "$id": "location",
       "fields": [
@@ -64,6 +129,45 @@
           "1318835326"
         ]
       },
+      "localization": {
+        "locales": [
+          "en_ES"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "locatorSearch",
+      "filter": {
+        "entityIds": [
+          "katespade-es-site-entity"
+        ]
+      },
+      "fields": [
+        "name",
+        "id",
+        "uid",
+        "meta",
+        "c_headerLinks",
+        "c_footerBottomLinks",
+        "logo",
+        "c_storeLocatorLabel",
+        "c_footerLinks",
+        "c_locatorMetaTitle",
+        "c_locatorMetaDescription",
+        "c_youTube",
+        "c_snapchat",
+        "c_twitter",
+        "c_facebook",
+        "c_instagram",
+        "c_pinterest",
+        "c_tikTok",
+        "c_heroImage",
+        "c_locatorTitle",
+        "c_locatorInstructionalText",
+        "c_locatorPlaceholderText",
+        "c_whatsAppPhone"
+      ],
       "localization": {
         "locales": [
           "en_ES"
